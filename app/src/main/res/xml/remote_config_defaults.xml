@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+
+    <!--APP Version property -->
+    <entry>
+        <key>app_version</key>
+        <value>211</value>
+    </entry>
+
+</defaultsMap>

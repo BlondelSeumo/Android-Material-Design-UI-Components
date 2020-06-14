@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="?attr/actionButtonStyle"
+    android:layout_width="@dimen/spacing_xxlarge"
+    android:layout_height="@dimen/spacing_xxlarge"
+    android:clipToPadding="false"
+    android:focusable="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:tint="@android:color/white"
+        app:srcCompat="@drawable/ic_notifications" />
+
+    <View
+        android:id="@+id/notif_badge"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:layout_gravity="right|end|top"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/badge_shape" />
+
+</FrameLayout>

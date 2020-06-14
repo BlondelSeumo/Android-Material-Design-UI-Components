@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/grp_2"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/action_notifications"
+            android:title="Notification"
+            app:actionLayout="@layout/badge_navigation_dot" />
+        <item
+            android:id="@+id/action_portfolio"
+            android:title="Other Apps" />
+        <item
+            android:id="@+id/action_rate"
+            android:orderInCategory="100"
+            android:title="Rate this app"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_about"
+            android:orderInCategory="100"
+            android:title="About"
+            app:showAsAction="never" />
+
+    </group>
+
+</menu>

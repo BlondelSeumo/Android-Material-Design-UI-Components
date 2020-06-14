@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingTop="@dimen/spacing_small"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/notif_badge"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:visibility="gone"
+        android:layout_gravity="right|end|top"
+        android:background="@drawable/badge_shape" />
+
+</LinearLayout>

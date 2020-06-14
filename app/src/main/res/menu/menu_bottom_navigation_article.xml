@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_1"
+        android:icon="@drawable/ic_view_modul"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_4"
+        android:icon="@drawable/ic_data_usage"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_3"
+        android:icon="@drawable/ic_account_balance"
+        android:checked="true"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_2"
+        android:icon="@drawable/ic_folder"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_5"
+        android:icon="@drawable/ic_account_circle"
+        android:title="" />
+
+</menu>
